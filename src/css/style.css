@@ -16,13 +16,13 @@ a{
   
 }
 #button{
-  display: inline-block; /* TAG A JÁ VEM COMO PADRÃO O INLINE. POR ISSO O BLOQUEIO DELE  */
+  display: inline-block; 
   background-color: #62C370;
-  height: 60px; /* ALTURA TEM QUE SER O MESMO DA LINHA */
-  line-height: 60px; /* ALTURA DA LINHA QUE IRÁ SE COMPORTAR  */
+  height: 60px; 
+  line-height: 60px; 
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 4px;
-  box-shadow: 5px 5px 0 #000;   /* SOBRA DO BUTTON = 10PX EIXO X, 10PX EIXO Y, VALOR 0 É A TRANSPARENCIAR  */
+  box-shadow: 5px 5px 0 #000;  
 
 }
