@@ -7,6 +7,8 @@ nav{
   text-align: right;
 }
 a{
+  display: inline-flex;
+  align-items: center;
   color: #FFF;
   font-size: 20px;
   font-family: "Fira Code", sans-serif, Arial;
@@ -15,14 +17,21 @@ a{
   margin-right: 30px;
   
 }
+a::before {
+  content: "";
+  background-color: #62C370;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
 #button{
   display: inline-block; 
   background-color: #62C370;
-  height: 60px; 
-  line-height: 60px; 
-  padding-left: 20px;
-  padding-right: 20px;
+  box-shadow: 5px 5px 0px #000;  
+  padding: 18px 20px;
   border-radius: 4px;
-  box-shadow: 5px 5px 0 #000;  
 
 }
