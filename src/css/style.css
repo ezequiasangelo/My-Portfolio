@@ -18,6 +18,7 @@ a{
   font-weight: 500;
   text-decoration: none;
   margin-right: 30px;
+  transition: transform 200ms ease-in-out;
   
 }
 a::before {
@@ -28,6 +29,9 @@ a::before {
   margin-right: 10px;
   vertical-align: middle;
 }
+a:hover{
+  transform: scale(1.05);
+}
 
 
 #button{
@@ -37,5 +41,12 @@ a::before {
   padding: 18px 20px;
   border-radius: 4px;
   margin-right: 0;
+  transition: transform 200ms ease-in-out;
 
+}
+
+#button:hover{
+
+  background-color: #5da868e0;
+  transform: scale(1.05);
 }
