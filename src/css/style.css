@@ -18,7 +18,7 @@ a{
   font-weight: 500;
   text-decoration: none;
   margin-right: 30px;
-  transition: transform 200ms ease-in-out;
+  transition: transform 2ms ease-in-out;
   
 }
 a::before {
@@ -28,9 +28,10 @@ a::before {
   height: 10px;
   margin-right: 10px;
   vertical-align: middle;
+  border-radius: 3px;
 }
 a:hover{
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 
@@ -50,3 +51,4 @@ a:hover{
   background-color: #5da868e0;
   transform: scale(1.05);
 }
+
